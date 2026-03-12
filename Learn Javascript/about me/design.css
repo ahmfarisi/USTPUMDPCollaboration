@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+  margin: 0;
+  transition: background 0.3s ease;
+}
+
+.container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #ff4d6d;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 12px 6px;
+  font-size: 28px;
+}
+
+.subtitle {
+  margin: 0;
+  color: #666;
+}
+
+h2 {
+  margin-top: 22px;
+  font-size: 20px;
+}
+
+ul {
+  padding-left: 18px;
+  margin: 10px 0;
+}
+
+a {
+  color: #ff4d6d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+.info-box {
+  margin: 20px auto;
+  padding: 14px;
+  border: 2px dashed #bfc7d5;
+  border-radius: 8px;
+  background: #f9fbff;
+  text-align: center;
+  color: #444;
+  max-width: 500px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.button-group button {
+  padding: 10px 16px;
+  border: 1px solid #bfc7d5;
+  border-radius: 8px;
+  background: #eef3fb;
+  color: #1f2937;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.button-group button:hover {
+  background: #dbeafe;
+}

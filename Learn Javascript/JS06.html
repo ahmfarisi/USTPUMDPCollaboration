@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Learn Javascript Event</title>
+  </head>
+
+  <body>
+    <h1 id="title">Hello Students</h1>
+    <button onclick="changeTitle()">Click Me !</button>
+
+    <h1>Change Background Color</h1>
+    <button onclick="changeBgColor()">Change Background Color</button>
+
+    <script>
+      function changeTitle() {
+        document.getElementById("title").innerHTML = "Ay ay Captain!";
+      }
+
+      function changeBgColor() {
+        document.body.style.backgroundColor = "lightblue";
+      }
+    </script>
+  </body>
+</html>
